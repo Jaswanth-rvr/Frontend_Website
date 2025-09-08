@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import type { Project } from '../types';
 
 const PROJECTS_DATA: Project[] = [
-    { image: "components/assets/quantum.jpg", category: "Branding", title: "Quantum Dynamics Rebrand" },
-    { image: "components/assets/steller.jpg", category: "Web App", title: "Stellar E-commerce Platform" },
-    { image: "components/assets/mobile.jpg", category: "Mobile App", title: "Apex Fitness Companion" }
+    { image: "/assets/quantum.jpg", category: "Branding", title: "Quantum Dynamics Rebrand" },
+    { image: "/assets/steller.jpg", category: "Web App", title: "Stellar E-commerce Platform" },
+    { image: "/assets/mobile.jpg", category: "Mobile App", title: "Apex Fitness Companion" }
 ];
 
 const ProjectCard: React.FC<{ project: Project; isVisible: boolean; delay: number }> = ({ project, isVisible, delay }) => {
