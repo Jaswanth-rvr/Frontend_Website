@@ -38,7 +38,7 @@ const About: React.FC = () => {
                         className="transition-all duration-700 ease-out"
                         style={{ opacity: isVisible ? 1 : 0, transform: isVisible ? 'translateX(0)' : 'translateX(-30px)', transitionDelay: '200ms' }}
                     >
-                        <img src="components/assets/about.jpg" alt="Our Team" className="rounded-lg shadow-2xl" />
+                        <img src="/assets/about.jpg" alt="Our Team" className="rounded-lg shadow-2xl" />
                     </div>
                     <div 
                         className="transition-all duration-700 ease-out"
@@ -62,3 +62,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+
